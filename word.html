@@ -7,13 +7,13 @@ var imlocation = "images/";
    }
  }
 image = new ImageArray(7);
-image[0] = 'sunday.gif';
+image[0] = 'sunday.png';
 image[1] = 'monday.png';
-image[2] = 'tuesday.gif';
-image[3] = 'wednesday.gif';
-image[4] = 'thursday.gif';
-image[5] = 'friday.gif';
-image[6] = 'saturday.gif';
+image[2] = 'tuesday.png';
+image[3] = 'wednesday.png';
+image[4] = 'thursday.png';
+image[5] = 'friday.png';
+image[6] = 'saturday.png';
 var currentdate = new Date();
 var imagenumber = currentdate.getDay();
 document.write('<img src="' + imlocation + image[imagenumber] + '">');
